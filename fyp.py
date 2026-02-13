@@ -71,7 +71,6 @@ ax2.bar(sales_by_region.index, sales_by_region.values)
 ax2.set_title("Sales by Region")
 plt.xticks(rotation=30)
 col5.pyplot(fig2)
-bh 
 
 fig3, ax3 = plt.subplots()
 ax3.scatter(filtered_df["discount"], filtered_df["profit"], alpha=0.4)
